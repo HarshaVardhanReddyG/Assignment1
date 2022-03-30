@@ -18,5 +18,9 @@ int main()
     printf("No.of shares purchased = %d\n",no_shares);
     printf("Total dividend = %d\n",dividend);
     printf("Rate of return(approx to nearest integer) = %d\n",(int)retrnpercent);
+    if (no_shares == 500 && dividend == 3000 && (int)retrnpercent == 13) 
+    printf("Verified\n");
+    else 
+    printf("There is an error\n");
     return 0;
 }
